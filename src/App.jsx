@@ -10,7 +10,7 @@ function App() {
   let interval = useRef();
 
   const startTimer = () => {
-    const countdowndate = new Date(2023, 6, 30, 18, 0, 0).getTime();
+    const countdowndate = new Date(2023, 5, 30, 18, 0, 0).getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
